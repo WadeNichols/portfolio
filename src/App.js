@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+
+//my components
+import Navbar from './Navbar'
+import SwitchPage from './SwitchPage'
 import './styles.css';
+
 
 class App extends Component {
   render() {
     return (
       <div >
-        boobs
+        <Navbar />
+        <SwitchPage />
       </div>
     );
   }
