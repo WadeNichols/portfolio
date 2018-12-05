@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className='navbar-container'>
-        <Link className='navbar' to={'/about'}>About<br/>Main<br/>Projects</Link>
-        {/* <Link className='navbar' to={'/'}>Main</Link> */}
-        {/* <Link className='navbar' to={'/projects'}>Projects</Link> */}
+        <Link className='navbar' to={'/'}>Main</Link>
+        <Link className='navbar' to={'/projects'}>Projects</Link>
+        <Link className='navbar' to={'/about'}>About</Link>
     </nav>
   );
 }
