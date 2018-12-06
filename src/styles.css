@@ -3,26 +3,27 @@
 }
 
 /* Header Styles */
-.navbar-container  {
-  text-decoration: none;
-  display: inline-block;
-  justify-content: space-between;
-  background-color: black;
-  color: white;
-  font-size: 22pt;
-}
 
 .navbar {
   color: white;
+  margin: 0 10px;
   text-decoration: none
 }
 
 .header {
-  background-color: #FF334A;
+  background-color: #AA3939;
+  width: 100vw;
+  height: 4.3em;
+  padding-top: 12px;
+}
+.header-icons {
+  float: right;
 }
 i {
-  font-size: 26px;
-  padding-right: 10px;
+  font-size: 30px;
+  padding: 0 10px;
+  color: white;
+  float: center;
 }
 
 .name {
@@ -39,7 +40,7 @@ i {
   position: fixed;
   left: 0;
   bottom: 0;
-  background-color: black;
+  background-color: #AA3939;
   width: 100%;
   height: 4em; 
   
