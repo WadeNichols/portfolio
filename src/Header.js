@@ -1,10 +1,11 @@
 import React from "react";
 
-import logo from './assets/logo.png'
+import wadeLogo from './assets/wadeLogo.png'
 
 function Header() {
   return (
     <div className="header">
+      <img className="logoW" src={wadeLogo} alt=""/>
       <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -12,8 +13,7 @@ function Header() {
         crossorigin="anonymous"
       />
 
-      <h1 className="name">Wade Nichols</h1>
-      <img src={logo.png} alt=""/>
+      {/* <h1 className="name">Wade Nichols</h1> */}
       <div className="header-icons">
         <a target="_blank" href="https://github.com/WadeNichols">
           <i className="fab fa-github" />
@@ -34,5 +34,6 @@ function Header() {
     </div>
   );
 }
+
 
 export default Header;

@@ -14,6 +14,7 @@ class App extends Component {
       <div >
         <Header />
         <SwitchPage />
+        <Navbar />
         <Footer />
       </div>
     );

@@ -11,14 +11,30 @@
 }
 
 .header {
-  background-color: #AA3939;
+  background-color: #73000B;
   width: 100vw;
-  height: 4.3em;
-  padding-top: 12px;
+  height: 3.5em;
+  padding: 7px 5px;
+  position: fixed;
+}
+
+.logoW {
+  padding: 0;
+  margin-top: -13px;
+}
+
+
+.logoN {
+  margin: -10px 5px 0 0;
+  float: right;
 }
 .header-icons {
   float: right;
+  padding: 10px 5px 0 0
 }
+
+
+
 i {
   font-size: 30px;
   padding: 0 10px;
@@ -26,13 +42,14 @@ i {
   float: center;
 }
 
-.name {
-  color: white;
-  text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+
+
+/* Main Styles */
+
+.main-body {
+  background-color: #A2A3A4;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* Footer Styles */
@@ -40,8 +57,8 @@ i {
   position: fixed;
   left: 0;
   bottom: 0;
-  background-color: #AA3939;
-  width: 100%;
+  background-color: #73000B;
+  width: 100vw;
   height: 4em; 
   
 }
