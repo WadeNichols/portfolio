@@ -5,7 +5,7 @@ import wadeLogo from './assets/wadeLogo.png'
 function Header() {
   return (
     <div className="header">
-      <img className="logoW" src={wadeLogo} alt=""/>
+      <img className="logoW" src={wadeLogo}/>
       <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"

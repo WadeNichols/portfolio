@@ -20,27 +20,23 @@
 
 .logoW {
   padding: 0;
-  margin-top: -13px;
+  margin: -15px 0 0 5px;
 }
 
-
-.logoN {
-  margin: -10px 5px 0 0;
-  float: right;
-}
+/* header icons */
 .header-icons {
   float: right;
   padding: 10px 5px 0 0
 }
-
-
 
 i {
   font-size: 30px;
   padding: 0 10px;
   color: white;
   float: center;
+  margin-top: 4px;
 }
+
 
 
 
@@ -52,6 +48,16 @@ i {
   width: 100vw;
 }
 
+.main-links {
+  float: center;
+  margin: 80px 0 -40px 125px;
+}
+
+.main-links-2 {
+  float: center;
+  margin: 80px 0 -40px 150px;
+}
+
 /* Footer Styles */
 .footer {
   position: fixed;
@@ -59,6 +65,10 @@ i {
   bottom: 0;
   background-color: #73000B;
   width: 100vw;
-  height: 4em; 
-  
+  height: 4.5em; 
+}
+
+.logoN {
+  margin: -10px 5px 0 0;
+  float: right;
 }
