@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 import wadeLogo from './assets/wadeLogo.png'
 
 function Header() {
   return (
     <div className="header">
-      <img className="logoW" src={wadeLogo}/>
+      <Link to={'/'}><img className="logoW" src={wadeLogo}/></Link>
       <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"

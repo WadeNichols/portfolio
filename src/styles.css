@@ -48,15 +48,13 @@ i {
   width: 100vw;
 }
 
+
 .main-links {
   float: center;
-  margin: 80px 0 -40px 125px;
+  margin: 110px 0 -50px 140px;
 }
 
-.main-links-2 {
-  float: center;
-  margin: 80px 0 -40px 150px;
-}
+
 
 /* Footer Styles */
 .footer {
