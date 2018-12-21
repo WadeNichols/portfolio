@@ -6,7 +6,7 @@ import wadeLogo from './assets/wadeLogo.png'
 function Header() {
   return (
     <div className="header">
-      <Link to={'/'}><img className="logoW" src={wadeLogo}/></Link>
+      <Link to={'/'}><img className="logoW" src={wadeLogo} alt=""/></Link>
       <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -16,7 +16,7 @@ function Header() {
 
       {/* <h1 className="name">Wade Nichols</h1> */}
       <div className="header-icons">
-        <a target="_blank" href="https://github.com/WadeNichols">
+        <a target="_blank" href="https://github.com/WadeNichols" rel="noopener noreferrer">
           <i className="fab fa-github" />
         </a>
         <a
@@ -26,7 +26,7 @@ function Header() {
           <i class="fas fa-envelope" />
         </a>
         <a
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           href="https://www.linkedin.com/in/wade-nichols-9bb33a164/"
         >
           <i class="fab fa-linkedin" />

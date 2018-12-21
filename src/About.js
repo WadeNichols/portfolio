@@ -17,16 +17,16 @@ export default function About() {
           A lot of my past work experience were jobs that just got me by. They
           were jobs such as paper routes, working in restaurants, customer
           service and, most recently, construction. None of these meant a whole
-          lot to me and . It's not that i hated any of the jobs or the work i did but
-          i didn't have any passion for them. I had them to pay the rent or, when
-          i was younger, to buy my toys. Electronics were always something i was
-          interested in; now days i can spend hours in Best Buy just looking at
-          their products, especially the computers/tablets and phones. When i
-          was 14 years old and had my own paper route, one of the things i
-          bought was my very own desktop. I had saved up for a while and when i
-          finally was able to purchase it i was like a kid in a candy shop. I
-          loved being on my computer and just messing around with it and i
-          became very familiar with it.
+          lot to me and . It's not that i hated any of the jobs or the work i
+          did but i didn't have any passion for them. I had them to pay the rent
+          or, when i was younger, to buy my toys. Electronics were always
+          something i was interested in; now days i can spend hours in Best Buy
+          just looking at their products, especially the computers/tablets and
+          phones. When i was 14 years old and had my own paper route, one of the
+          things i bought was my very own desktop. I had saved up for a while
+          and when i finally was able to purchase it i was like a kid in a candy
+          shop. I loved being on my computer and just messing around with it and
+          i became very familiar with it.
         </p>
         <p>
           I never did anything with that interest after high school and i always
@@ -44,9 +44,16 @@ export default function About() {
           pursue my interests that i nearly left behind.
         </p>
         <p>
-        So this is where i am at now; I am enthused to begin this new journey in my life and doing something that gives me joy or drives me out of my mind but that can be fixed with a 15 minute walk.<br/>
-          Graduating V-School is a major accomplishment in my life and I'm proud of myself. I didn't think coding would be easy but i soon discovered that this was going to be a challenge, so: CHALLENGE ACCEPTED! I am excited to embrace this new chapter and see where its going to take me.
-          Feel free to poke around my portfolio to see a little of what i learned.
+          So this is where i am at now; I am enthused to begin this new journey
+          in my life and doing something that gives me joy or drives me out of
+          my mind but that can be fixed with a 15 minute walk.
+          <br />
+          Graduating V-School is a major accomplishment in my life and I'm proud
+          of myself. I didn't think coding would be easy but i soon discovered
+          that this was going to be a challenge, so: CHALLENGE ACCEPTED! I am
+          excited to embrace this new chapter and see where its going to take
+          me. Feel free to poke around my portfolio to see a little of what i
+          learned.
         </p>
       </body>
     </div>

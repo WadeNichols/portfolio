@@ -10,11 +10,9 @@ function Main() {
     <div className="main-body">
       <Link to={"/about"}>
         <img className="main-links" src={aboutMe} alt="" />
-        <br />
       </Link>
       <Link to={"/projects"}>
         <img className="main-links" src={projects} alt="" />
-        <br />
       </Link>
       <Link to={"/contact"}>
         <img className="main-links" src={contactMe} alt="" />

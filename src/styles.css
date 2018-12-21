@@ -1,9 +1,31 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Zilla+Slab+Highlight|IM+Fell+Double+Pica+SC');
+
+/*fonts to consider
+Gochi Hand - p
+Viga - p
+Signika+Negative - p
+Do Hyeon - p
+Boogaloo - p*
+Rock Salt - p*
+Caveat Brush - p*
+Chewy - p*
+Coustard - p*
+Skranji - p*
+Stardos Stencil - p*
+Overpass Mono - p*
+Port Lligat Sans - p*
+Kosugi - p*
+IM Fell DW (or just Double) Pica SC - p*
+Zilla Slab Highlight - h1*
+Permanent Marker - h1*
+*/
+
 * {
   margin: 0;
 }
 
 /* Header Styles */
-
 .navbar {
   color: white;
   margin: 0 10px;
@@ -20,38 +42,57 @@
 
 .logoW {
   padding: 0;
-  margin: -15px 0 0 5px;
+  margin: -17px 0 0 5px;
 }
 
 /* header icons */
 .header-icons {
   float: right;
-  padding: 10px 5px 0 0
+  margin-top: 10px;
+  margin-right: 20px
 }
 
 i {
   font-size: 30px;
-  padding: 0 10px;
+  padding: 0 10px 0 10px;
   color: white;
   float: center;
   margin-top: 4px;
 }
 
-
-
-
 /* Main Styles */
-
 .main-body {
   background-color: #A2A3A4;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.projects-container {
+  background-color: #A2A3A4;
+  padding-bottom: 4em;
+}
 
-.main-links {
-  float: center;
-  margin: 110px 0 -50px 140px;
+.projects-container h1 {
+  padding: 2.5em 0 0 10px;
+  font-size: 4em;
+  font-family: 'Libre Barcode 128 Text', 'Zilla Slab Highlight';
+}
+
+.projects-container p {
+  font-size: 21px;
+  line-height: 20px;
+  padding: 1em 0 1em 10px;
+  width: 70%;
+  color: white;
+  font-family: 'IM Fell Double Pica SC', sans-serif;
+}
+
+.gif-videos {
+  padding: 10px 0 0 10px;
 }
 
 
@@ -63,10 +104,10 @@ i {
   bottom: 0;
   background-color: #73000B;
   width: 100vw;
-  height: 4.5em; 
+  height: 4.1em; 
 }
 
 .logoN {
-  margin: -10px 5px 0 0;
   float: right;
+  margin: -.5em 1.3em 0 0;
 }
