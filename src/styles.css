@@ -1,5 +1,5 @@
 /*Google Fonts*/
-@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Zilla+Slab+Highlight|Stardos+Stencil');
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Zilla+Slab+Highlight|Stardos+Stencil");
 
 /*fonts to consider
 Gochi Hand - p
@@ -26,14 +26,28 @@ Permanent Marker - h1*
 }
 
 /* Header Styles */
-.navbar {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none
+.nav-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(0, -50%);
 }
 
-.header {
-  background-color: #73000B;
+.nav-container a {
+  padding: 0 40px 0 90px;
+  color: whitesmoke;
+  font-size: 50px;
+  text-decoration: none;
+  font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight";
+}
+
+.header-container {
+  background-color: #73000b;
+  /* background-color: #e6b82e; */
   width: 100vw;
   height: 3.5em;
   padding: 7px 5px;
@@ -49,70 +63,81 @@ Permanent Marker - h1*
 .header-icons {
   float: right;
   margin-top: 10px;
-  margin-right: 20px
+  margin-right: 20px;
 }
 
-i {
+.header-icons i {
   font-size: 30px;
   padding: 0 10px 0 10px;
-  color: white;
+  color: whitesmoke;
   float: center;
   margin-top: 4px;
 }
 
 /* Main Styles */
-.main-body {
-  background-color: #A2A3A4;
-  height: 100vh;
-  width: 100vw;
+.container {
+  background-color: #e6b82e;
+  height: auto !important;
+  min-height: 100vh;
+  padding-bottom: 5em;
+  padding-left: 0.5em;
+  text-align: center;
+}
+
+
+
+.resume-download {
+  font-size: 10em;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-left: 20px;
 }
 
-.projects-container {
-  background-color: #A2A3A4;
-  padding-bottom: 4em;
-  padding-left: .5em
-}
-
-.projects-container h1 {
+h1 {
   padding: 1.5em 0 0 20px;
-  font-size: 4em;
-  font-family: 'Libre Barcode 128 Text', 'Zilla Slab Highlight';
+  font-size: 5em;
+  font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight";
+  color: #000;
 }
 
-.projects-container p {
+p {
   font-size: 20px;
+  text-indent: 1.5em;
   line-height: 21px;
-  padding: 1em 0 1em 20px;
-  width: 70%;
-  color: white;
-  font-family: 'Stardos Stencils', sans-serif;
-}
-
-.gif-videos {
-  padding: 10px 0 0 0px;
-}
-
-img {
-  padding-left: 1.5em;
+  padding: 0.5em 0 0.5em 20px;
+  color: whitesmoke;
+  font-family: "Stardos Stencils", sans-serif;
 }
 
 
+.gif {
+  margin-left: 1.5em;
+}
+
+.projects-logo {
+  padding-left: 5em;
+}
+
+.head-shot {
+  display: flex;
+  float: right;
+  margin: -5em 1em 1em 1em;
+}
+br {
+  margin-bottom: 1em;
+}
 
 /* Footer Styles */
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  background-color: #73000B;
+  background-color: #73000b;
+  /* background-color: #e6b82e; */
   width: 100vw;
-  height: 4.1em; 
+  height: 4.1em;
 }
 
 .logoN {
   float: right;
-  margin: -.5em 1.3em 0 0;
+  margin: -0.5em 1.3em 0 0;
 }

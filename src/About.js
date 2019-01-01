@@ -1,59 +1,52 @@
 import React from "react";
 
+import headShot from "./assets/portfolioPicture.png";
+
 export default function About() {
   return (
-    <div>
+    <div className="container">
       <header>
-        <h1>Haaaaaaaaave You Met Wade?</h1>
+        <h1>Have You Met Wade?</h1>
       </header>
+      <span className="head-shot">
+        <img height="404px" width="295px" src={headShot} alt="" />
+      </span>
       <body>
-        <h6>
-          Hi, I'm Wade and this is the story of how I met your mother.
-          <br />
-          Oops, thats the wrong story; this is a explanation to why you might be
-          reading this.
-        </h6>
+        <p>
+          Hi, I'm Wade and this is the story of how I came to become a computer
+          programmer.
+        </p>
+        <p>
+          I decided it was time to find a career and I was lucky to find one I
+          love doing. So, here is a snap shot of how I came to this point in my
+          life and how you came to be reading this.
+        </p>
         <p>
           A lot of my past work experience were jobs that just got me by. They
           were jobs such as paper routes, working in restaurants, customer
           service and, most recently, construction. None of these meant a whole
-          lot to me and . It's not that i hated any of the jobs or the work i
-          did but i didn't have any passion for them. I had them to pay the rent
-          or, when i was younger, to buy my toys. Electronics were always
-          something i was interested in; now days i can spend hours in Best Buy
-          just looking at their products, especially the computers/tablets and
-          phones. When i was 14 years old and had my own paper route, one of the
-          things i bought was my very own desktop. I had saved up for a while
-          and when i finally was able to purchase it i was like a kid in a candy
-          shop. I loved being on my computer and just messing around with it and
-          i became very familiar with it.
+          lot to me. It's not that I hated any of the jobs or the work I did,
+          but rather, I didn't have any passion for them and they were not the
+          career I really wanted to be doing. I had them to pay the rent and get
+          by month to month. I knew it was time to find a career I could enjoy
+          and actually do well. Electronics, and what makes them work, were
+          always something I was interested in. I realized my love of computers
+          and what make them work, at a young age, when I purchased my first
+          computer and found out about computer coding.
         </p>
         <p>
-          I never did anything with that interest after high school and i always
-          regretted it. As i kept taking on more and more responsibilities it
-          seemed to become more and more difficult to go back to school to
-          pursue my interest in technology, specifically computers. As time kept
-          going it kept weigh me down that i never did anymore education after
-          HS and i was starting to give up on the idea when one day i got the
-          push i needed to do something to better myself and to better my life.
-          So i did my research and once i mad the decision i quit my job the
-          next day so that i could attend a Fullstack Web Developer boot camp in
-          Salt Lake City, UT. my home town. I spent three months at this full
-          time boot camp going from knowing nothing about coding to having the
-          knowledge and tools i need to do something better with my life and
-          pursue my interests that i nearly left behind.
+          Today, I am excited to begin this new journey doing something that
+          gives me joy and challenges me daily. Graduating V-School is a major
+          accomplishment. I'm proud of myself for being able to complete it. I
+          learned valuable lessons in working alone and with others in a team
+          environment on specific projects, excelling in both work arenas. I
+          have discovered I truly enjoy the challenges the coding world can
+          bring. I am eager to start working with a forward thinking company to
+          grow with.
         </p>
         <p>
-          So this is where i am at now; I am enthused to begin this new journey
-          in my life and doing something that gives me joy or drives me out of
-          my mind but that can be fixed with a 15 minute walk.
-          <br />
-          Graduating V-School is a major accomplishment in my life and I'm proud
-          of myself. I didn't think coding would be easy but i soon discovered
-          that this was going to be a challenge, so: CHALLENGE ACCEPTED! I am
-          excited to embrace this new chapter and see where its going to take
-          me. Feel free to poke around my portfolio to see a little of what i
-          learned.
+          Feel free to poke around my portfolio to see a little more of what I
+          learned and can do.
         </p>
       </body>
     </div>

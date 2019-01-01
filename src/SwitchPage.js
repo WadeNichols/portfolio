@@ -2,16 +2,16 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 //my components
-import Main from './Main';
+import Resume from './Resume';
 import About from './About';
 import Projects from './Projects'
 
 export default function SwitchPage() {
     return (
         <Switch>
-            <Route exact path='/' component={Main} />
-            <Route path='/about' component={About} />
+            <Route exact path='/' component={About} />
             <Route path='/projects' component={Projects} />
+            <Route path='/resume' component={Resume} />
         </Switch>
     )
 }

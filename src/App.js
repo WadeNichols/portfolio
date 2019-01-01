@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <SwitchPage />
+        <SwitchPage className="container" />
         <Footer />
       </div>
     );
