@@ -20,28 +20,28 @@ function Header() {
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous"
       />
-      <div className="header-icons">
+      <ul className="header-icons">
         <a
           target="_blank"
-          href="https://github.com/WadeNichols"
           rel="noopener noreferrer"
+          href="https://github.com/WadeNichols"
         >
           <i className="fab fa-github" />
         </a>
         <a
-          type="email"
-          href="mailto: wnichols73@gmail.com?&subject=Resume%20Request"
+          type="emliil"
+          href="mailto: kwnichols73@gmail.com?"
         >
-          <i class="fas fa-envelope" />
+          <i className="fas fa-envelope" />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/wade-nichols-9bb33a164/"
         >
-          <i class="fab fa-linkedin" />
+          <i className="fab fa-linkedin" />
         </a>
-      </div>
+      </ul>
     </div>
   );
 }

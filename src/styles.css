@@ -38,7 +38,7 @@ Permanent Marker - h1*
 }
 
 .nav-container a {
-  padding: 0 40px 0 90px;
+  padding: 0 0 0 0;
   color: whitesmoke;
   font-size: 50px;
   text-decoration: none;
@@ -62,16 +62,18 @@ Permanent Marker - h1*
 /* header icons */
 .header-icons {
   float: right;
+  display: flex;
   margin-top: 10px;
   margin-right: 20px;
 }
 
-.header-icons i {
+.header-icons a {
   font-size: 30px;
-  padding: 0 10px 0 10px;
+  padding: 0 15px 0 10px;
   color: whitesmoke;
   float: center;
   margin-top: 4px;
+  list-style: none;
 }
 
 /* Main Styles */
