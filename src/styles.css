@@ -38,7 +38,7 @@ Permanent Marker - h1*
 }
 
 .nav-container a {
-  padding: 0 0 0 0;
+  padding: 0 25px;
   color: whitesmoke;
   font-size: 50px;
   text-decoration: none;
@@ -97,6 +97,12 @@ Permanent Marker - h1*
 h1 {
   padding: 1.5em 0 0 20px;
   font-size: 5em;
+  font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight";
+  color: #000;
+}
+.container h3 {
+  padding: 1.5em 0 0 20px;
+  font-size: 3em;
   font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight";
   color: #000;
 }

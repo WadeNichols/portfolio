@@ -14,27 +14,14 @@ function Projects() {
         <h1>What Can I Do?</h1>
       </header>
       <body>
-      <p>
-        Here are a few samples of what I learned during the 12 weeks that I was
-        at V-School. If you would like to take a closer look then you can click
-        on the gif and it will take you to the web page.
-      </p>
-      {/* <p>
-        I am proud of these projects that I made. By all means I am not saying
-        that these are the best web pages ever created, unless you compare me to
-        my nephew who is 7; then they’re pretty dang good compared to him. With
-        all of the projects assigned to us, we were given anywhere from 6-8 days
-        to complete and for me to accomplish them says a lot for me. I started
-        V-School with very little about the coding world; I would have been able
-        to recognize code but that would have been to the extent of my
-        knowledge. I went from knowing nothing about the coding world to being
-        able to create a full stack web application. Coding isn't very easy, and
-        it's definitely a challenge to learn so much material/information in
-        such a short time to learn it in. Since I have achieved this, I know
-        that with the right opportunity to continue learning and practice more,
-        I will become an even better developer than I am now.
-      </p> */}
-      <span className="gif"><img  width="320" height="179" src={pickIt} alt="" /></span>
+        <h3>
+          Here are a few samples of what I learned during the 12 weeks that I
+          was at V-School. If you would like to take a closer look then you can
+          click on the gif and it will take you to the web page.
+        </h3>
+        <a href="http://pick-it.surge.sh/" target="_blank" className="gif">
+          <img width="320" height="179" src={pickIt} alt="" />
+        </a>
         {/* <img
           className="projects-logo"
           width="280px"
@@ -48,7 +35,9 @@ function Projects() {
           this one the most. I was able to see what I could do with the new
           skills I’ve learned and combine them with my love to play the guitar.
         </p>
-        <span className="gif"><img width="320" height="179" src={pickIt2} alt="" /></span>
+        <a href="http://pick-it2.surge.sh" target="_blank" className="gif">
+          <img width="320" height="179" src={pickIt2} alt="" />
+        </a>
         {/* <img
           className="projects-logo"
           width="200px"
@@ -63,7 +52,13 @@ function Projects() {
           continue to work on during my free time to see where I can take it. I
           have ideas of what I would like to add to it and develop it even more.
         </p>
-        <span className="gif"><img width="320" height="179" src={cccSite} alt="" /></span>
+        <a
+          href="http://cursive-clothing.surge.sh"
+          target="_blank"
+          className="gif"
+        >
+          <img width="320" height="179" src={cccSite} alt="" />
+        </a>
         {/* <img
           className="projects-logo"
           width="280px"
@@ -81,8 +76,24 @@ function Projects() {
           project. It was a great learning experience and good practice for
           working in the real world, working in pairs or groups.
         </p>
-        </body>
-      </div>
+        <p>
+          I am proud of these projects that I made. By all means I am not saying
+          that these are the best web pages ever created, unless you compare me
+          to my nephew who is 7; then they’re pretty dang good compared to him.
+          With all of the projects assigned to us, we were given anywhere from
+          6-8 days to complete and for me to accomplish them says a lot for me.
+          I started V-School with very little about the coding world; I would
+          have been able to recognize code but that would have been to the
+          extent of my knowledge. I went from knowing nothing about the coding
+          world to being able to create a full stack web application. Coding
+          isn't very easy, and it's definitely a challenge to learn so much
+          material/information in such a short time to learn it in. Since I have
+          achieved this, I know that with the right opportunity to continue
+          learning and practice more, I will become an even better developer
+          than I am now.
+        </p>
+      </body>
+    </div>
   );
 }
 
