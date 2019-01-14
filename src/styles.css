@@ -1,26 +1,6 @@
 /*Google Fonts*/
 @import url("https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Zilla+Slab+Highlight|Stardos+Stencil");
 
-/*fonts to consider
-Gochi Hand - p
-Viga - p
-Signika+Negative - p
-Do Hyeon - p
-Boogaloo - p*
-Rock Salt - p*
-Caveat Brush - p*
-Chewy - p*
-Coustard - p*
-Skranji - p*
-Stardos Stencil - p*
-Overpass Mono - p*
-Port Lligat Sans - p*
-Kosugi - p*
-IM Fell DW (or just Double) Pica SC - p*
-Zilla Slab Highlight - h1*
-Permanent Marker - h1*
-*/
-
 * {
   margin: 0;
 }
@@ -86,12 +66,22 @@ Permanent Marker - h1*
   text-align: center;
 }
 
+.resume {
+  height: 30%;
+  width: 60%;
+}
 
+.resume-title {
+  padding: 1.2em 10px 10px 10px;
+}
 
-.resume-download {
-  font-size: 10em;
-  display: flex;
-  margin-left: 20px;
+.resume-download{
+  display: inline;
+  font-size: 1em;
+  height: auto;
+  width: auto;
+  padding: 0 0 0 15px;
+  color: white;
 }
 
 h1 {
@@ -128,7 +118,7 @@ p {
 .head-shot {
   display: flex;
   float: right;
-  margin: -5em 1em 1em 1em;
+  margin: 0 1em 1em 1em;
 }
 br {
   margin-bottom: 1em;

@@ -37,7 +37,7 @@ function Header() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/wade-nichols-9bb33a164/"
+          href="https://www.linkedin.com/in/wade-nichols"
         >
           <i className="fab fa-linkedin" />
         </a>

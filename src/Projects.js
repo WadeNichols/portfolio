@@ -35,7 +35,7 @@ function Projects() {
           this one the most. I was able to see what I could do with the new
           skills I’ve learned and combine them with my love to play the guitar.
         </p>
-        <a href="http://pick-it2.surge.sh" target="_blank" className="gif">
+        <a href="https://pick-it2.herokuapp.com" target="_blank" className="gif">
           <img width="320" height="179" src={pickIt2} alt="" />
         </a>
         {/* <img
@@ -53,7 +53,7 @@ function Projects() {
           have ideas of what I would like to add to it and develop it even more.
         </p>
         <a
-          href="http://cursive-clothing.surge.sh"
+          href="https://cursive-clothing.herokuapp.com/"
           target="_blank"
           className="gif"
         >
