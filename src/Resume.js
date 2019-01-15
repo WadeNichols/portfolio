@@ -15,7 +15,7 @@ function Resume() {
 
       <h1 className="resume-title">Here's My Resume, Check It Out.</h1>
 
-      <a className="resume-download" href="https://drive.google.com/file/d/1DAXhTkYSe0RoLVeGhwYIHeCJFfBTiXWW/view" target="_blank" download >
+      <a className="resume-download" href="https://drive.google.com/file/d/1DAXhTkYSe0RoLVeGhwYIHeCJFfBTiXWW/view" target="_blank" >
         <i class="fas fa-file-download" />
       </a>
       <p>Download Resumé</p>
