@@ -18,7 +18,7 @@
 }
 
 .nav-container a {
-  padding: 0 25px;
+  padding: 0 20px;
   color: whitesmoke;
   font-size: 50px;
   text-decoration: none;
@@ -33,6 +33,10 @@
   padding: 7px 5px;
   position: fixed;
 }
+@media only screen and (max-width: 800px ) {
+  .header-container {
+  }
+}
 
 .logoW {
   padding: 0;
@@ -44,12 +48,12 @@
   float: right;
   display: flex;
   margin-top: 10px;
-  margin-right: 20px;
+  padding: 0 20px;
 }
 
 .header-icons a {
   font-size: 30px;
-  padding: 0 15px 0 10px;
+  padding: 0 15px 0 15px;
   color: whitesmoke;
   float: center;
   margin-top: 4px;
@@ -61,9 +65,8 @@
   background-color: #e6b82e;
   height: auto !important;
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
   padding-bottom: 5em;
-  padding-left: 0.5em;
   text-align: center;
 }
 
@@ -76,7 +79,7 @@
   padding: 1.5em 10px 10px 10px;
 }
 
-.resume-download{
+.resume-download {
   font-size: 4em;
   padding: 0 0 0 15px;
   color: white;
@@ -88,6 +91,7 @@ h1 {
   font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight";
   color: #000;
 }
+
 .container h3 {
   padding: 1.5em 17px 15px 20px;
   font-size: 2em;
@@ -109,6 +113,9 @@ p {
   margin-left: 1.5em;
   padding: 15px
 }
+.size {
+  max-width: 70vw;
+}
 
 .projects-logo {
   padding-left: 5em;
@@ -125,9 +132,22 @@ p {
   display: grid;
   grid-template-columns: auto auto auto auto;
   align-items: center;
-  margin-right: 25px
-  
 }
+@media only screen and (max-width: 860px) {
+  .skills {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .skills {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+}
+
 h5 {
   font-size: 16px;
   text-indent: 1.5em;
@@ -135,6 +155,7 @@ h5 {
   color: whitesmoke;
   font-family: "Stardos Stencils", sans-serif;
 }
+
 h6 {
   padding: .5em 0 20px 0;
   font-size: 5em;
@@ -142,6 +163,7 @@ h6 {
   /* text-decoration: str */
   color: #000;
 }
+
 .icons {
   height: auto;
   width: auto;
@@ -153,6 +175,7 @@ h6 {
   float: right;
   margin: 0 1em 1em 1em;
 }
+
 br {
   margin-bottom: 1em;
 }

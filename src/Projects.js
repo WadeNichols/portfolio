@@ -32,7 +32,7 @@ function Projects() {
         </h3>
       <h1 className="projects">Pick-It</h1>
         <a href="http://pick-it.surge.sh/" target="_blank" className="gif">
-          <img width="530" height="290" src={pickIt} alt="" />
+          <img className="size" src={pickIt} alt="" />
         </a>
         
         <p>
@@ -48,7 +48,7 @@ function Projects() {
           target="_blank"
           className="gif"
         >
-          <img width="530" height="290" src={pickIt2} alt="" />
+          <img className="size" src={pickIt2} alt="" />
         </a>
    
         <p>
@@ -65,7 +65,7 @@ function Projects() {
           target="_blank"
           className="gif"
         >
-          <img width="530" height="290" src={cccSite} alt="" />
+          <img className="size" src={cccSite} alt="" />
         </a>
  
         <p>

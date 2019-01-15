@@ -1,6 +1,6 @@
 import React from "react";
 
-import resume from "./assets/resumePDF.pdf";
+import resume from "./assets/resume.docx";
 import resumePNG from "./assets/resumePNG.png";
 
 function Resume() {
@@ -15,7 +15,7 @@ function Resume() {
 
       <h1 className="resume-title">Here's My Resume, Check It Out.</h1>
 
-      <a download href={resume} className="resume-download">
+      <a className="resume-download" href={resume} download>
         <i class="fas fa-file-download" />
       </a>
       <p>Download Resumé</p>
