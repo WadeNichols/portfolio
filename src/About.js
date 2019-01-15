@@ -13,7 +13,8 @@ export default function About() {
       </p>
       <body>
         <p>
-          Hi, I'm Wade and this is the story of how I came to become a Web Developer.
+          Hi, I'm Wade and this is the story of how I came to become a Web
+          Developer.
         </p>
         <p>
           I decided it was time to find a career and I was lucky to find one I
@@ -28,20 +29,19 @@ export default function About() {
           but rather, I didn't have any passion for them and they were not the
           career I really wanted to be doing. I had them to pay the rent and get
           by month to month. I knew it was time to find a career I could enjoy
-          and actually do well. Electronics, and what makes them work, were
-          always something I was interested in. I realized my love of computers
-          and what make them work, at a young age, when I purchased my first
-          computer and found out about computer coding.
+          and actually do well. At a young age I found a love for computers and
+          technology and that passion is still with me today and will help me
+          with my launch into the web development world.
         </p>
         <p>
           Today, I am excited to begin this new journey doing something that
           gives me joy and challenges me daily. Graduating V-School is a major
           accomplishment. I'm proud of myself for being able to complete it. I
           learned valuable lessons in working alone and with others in a team
-          environment on specific projects, excelling in both work arenas. I
-          have discovered I truly enjoy the challenges the coding world can
-          bring. I am eager to start working with a forward thinking company to
-          grow with.
+          environment on specific projects, excelling in both work areas. I have
+          discovered I truly enjoy the challenges the coding world can bring. I
+          am eager to start working with a forward thinking company to grow
+          with.
         </p>
         <p>
           Feel free to poke around my portfolio to see a little more of what I
