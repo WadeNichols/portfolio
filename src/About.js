@@ -13,8 +13,7 @@ export default function About() {
       </p>
       <body>
         <p>
-          Hi, I'm Wade and this is the story of how I came to become a computer
-          programmer.
+          Hi, I'm Wade and this is the story of how I came to become a Web Developer.
         </p>
         <p>
           I decided it was time to find a career and I was lucky to find one I

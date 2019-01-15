@@ -1,11 +1,23 @@
 import React from "react";
 
+//my imports
 import pickIt from "./assets/pickItGif.gif";
 import pickIt2 from "./assets/pickIt2Gif.gif";
 import cccSite from "./assets/clothingSiteGif.gif";
-import pickItLogo from "./assets/pickItLogo.png";
-import pickIt2Logo from "./assets/pickIt2Logo.png";
-import cccLogo from "./assets/cccLogo.png";
+
+//icons
+import axios from "./assets/icons/axios-icon.png"
+import css from "./assets/icons/css-icon.png"
+import git from "./assets/icons/git-icon.png"
+import html from "./assets/icons/html-icon.png"
+import javascript from "./assets/icons/javascript-icon.png"
+import json from "./assets/icons/json-icon.png"
+import mongodb from "./assets/icons/mongodb-icon.png"
+import node from "./assets/icons/node-icon.png"
+import react from "./assets/icons/react-icon.png"
+import terminal from "./assets/icons/terminal-icon.png"
+import express from "./assets/icons/express-icon.png"
+
 
 function Projects() {
   return (
@@ -15,36 +27,30 @@ function Projects() {
       </header>
       <body>
         <h3>
-          Here are a few samples of what I learned during the 12 weeks that I
-          was at V-School. If you would like to take a closer look then you can
-          click on the gif and it will take you to the web page.
+          Here area few samples of what I am able to do. Go ahead and click on
+          the gif if you would like to take a closer look.
         </h3>
+      <h1 className="projects">Pick-It</h1>
         <a href="http://pick-it.surge.sh/" target="_blank" className="gif">
-          <img width="320" height="179" src={pickIt} alt="" />
+          <img width="530" height="290" src={pickIt} alt="" />
         </a>
-        {/* <img
-          className="projects-logo"
-          width="280px"
-          height="260px"
-          src={pickItLogo}
-          alt=""
-        /> */}
+        
         <p>
           This was the very first big project that we were assigned; a test at
           our front end skills. We had 10 days to complete this and I enjoyed
           this one the most. I was able to see what I could do with the new
           skills I’ve learned and combine them with my love to play the guitar.
         </p>
-        <a href="https://pick-it2.herokuapp.com" target="_blank" className="gif">
-          <img width="320" height="179" src={pickIt2} alt="" />
+      <h1 className="projects">PickIt v2</h1>
+
+        <a
+          href="https://pick-it2.herokuapp.com"
+          target="_blank"
+          className="gif"
+        >
+          <img width="530" height="290" src={pickIt2} alt="" />
         </a>
-        {/* <img
-          className="projects-logo"
-          width="200px"
-          height="200px"
-          src={pickIt2Logo}
-          alt=""
-        /> */}
+   
         <p>
           I enjoyed working on the first project so much, I decided to continue
           it. I started from scratch and was able to clean my code up a little
@@ -52,20 +58,16 @@ function Projects() {
           continue to work on during my free time to see where I can take it. I
           have ideas of what I would like to add to it and develop it even more.
         </p>
+      <h1 className="projects">Cursive Clothing</h1>
+
         <a
           href="https://cursive-clothing.herokuapp.com/"
           target="_blank"
           className="gif"
         >
-          <img width="320" height="179" src={cccSite} alt="" />
+          <img width="530" height="290" src={cccSite} alt="" />
         </a>
-        {/* <img
-          className="projects-logo"
-          width="280px"
-          height="260px"
-          src={cccLogo}
-          alt=""
-        /> */}
+ 
         <p>
           Cursive Clothing Company - This was our final project that was also
           full-stack but required us to have Authentication. We were given 8
@@ -77,21 +79,29 @@ function Projects() {
           working in the real world, working in pairs or groups.
         </p>
         <p>
-          I am proud of these projects that I made. By all means I am not saying
-          that these are the best web pages ever created, unless you compare me
-          to my nephew who is 7; then they’re pretty dang good compared to him.
-          With all of the projects assigned to us, we were given anywhere from
-          6-8 days to complete and for me to accomplish them says a lot for me.
-          I started V-School with very little about the coding world; I would
-          have been able to recognize code but that would have been to the
-          extent of my knowledge. I went from knowing nothing about the coding
-          world to being able to create a full stack web application. Coding
-          isn't very easy, and it's definitely a challenge to learn so much
-          material/information in such a short time to learn it in. Since I have
-          achieved this, I know that with the right opportunity to continue
-          learning and practice more, I will become an even better developer
-          than I am now.
+          I am proud of these projects and accomplishments I've achieved in
+          these past few months. I began my journey with little to no knowledge
+          of the coding world and finished with head full of new knowledge,
+          ideas and tools to get me started. We had a deadline with all of these
+          apps, averaging between 6-9 days to complete them. I am excited for
+          the future and to see how much more I can grow and learn with these
+          new skills that I've been taught.
         </p>
+
+        <h6>What Do I Know?</h6>
+        <div className="skills">
+          <div className="icons"><img src={react} alt=""/><h5>React</h5></div>
+          <div className="icons"><img src={javascript} alt=""/><h5>JavaScript</h5></div>
+          <div className="icons"><img src={html} alt=""/><h5>HTML5</h5></div>
+          <div className="icons"><img src={css} alt=""/><h5>CSS3</h5></div>
+          <div className="icons"><img src={node} alt=""/><h5>Node.js</h5></div>
+          <div className="icons"><img src={json} alt=""/><h5>JSON</h5></div>
+          <div className="icons"><img src={terminal} alt=""/><h5>Terminal</h5></div>
+          <div className="icons"><img src={git} alt=""/><h5>Git</h5></div>
+          <div className="icons"><img src={express} alt=""/><h5>Express</h5></div>
+          <div className="icons"><img src={axios} alt=""/><h5>Axios</h5></div>
+          <div className="icons"><img src={mongodb} alt=""/><h5>MongoDB</h5></div>
+        </div>
       </body>
     </div>
   );
