@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
 //my components
-import Footer from './Footer'
-import SwitchPage from './SwitchPage'
-import Header from './Header'
+import Footer from "./Footer"
+import SwitchPage from "./SwitchPage"
+import Header from "./Header"
+import Navbar from "./Navbar"
 import './styles.css';
 
 
@@ -12,6 +13,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <Navbar />
         <SwitchPage className="container" />
         <Footer />
       </div>

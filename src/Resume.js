@@ -3,7 +3,7 @@ import React from "react";
 import resume from "./assets/resume.docx";
 import resumePNG from "./assets/resumePNG.png";
 
-function Resume() {
+export default function Resume() {
   return (
     <div className="container">
       <link
@@ -24,5 +24,3 @@ function Resume() {
     </div>
   );
 }
-
-export default Resume;

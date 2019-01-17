@@ -3,14 +3,9 @@ import { Link } from "react-router-dom";
 
 import wadeLogo from "./assets/wadeLogo.png";
 
-function Header() {
+export default function Header() {
   return (
     <div className="header-container">
-        <nav className="nav-container">
-          <a className="nav" href="/">About</a>
-          <a className="nav" href="/projects">Projects</a>
-          <a className="nav" href="/resume">Resume</a>
-        </nav>
       <Link to={"/"}>
         <img className="logoW" src={wadeLogo} alt="" />
       </Link>
@@ -45,5 +40,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;

@@ -19,7 +19,7 @@ import terminal from "./assets/icons/terminal-icon.png"
 import express from "./assets/icons/express-icon.png"
 
 
-function Projects() {
+export default function Projects() {
   return (
     <div className="container">
       <header>
@@ -106,5 +106,3 @@ function Projects() {
     </div>
   );
 }
-
-export default Projects;
