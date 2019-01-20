@@ -35,7 +35,7 @@ export default function About() {
         </p>
         <p>
           Today, I am excited to begin this new journey doing something that
-          gives me joy and challenges me daily. Graduating V-School is a major
+          gives me joy and challenges me daily. Graduating V School is a major
           accomplishment. I'm proud of myself for being able to complete it. I
           learned valuable lessons in working alone and with others in a team
           environment on specific projects, excelling in both work areas. I have
