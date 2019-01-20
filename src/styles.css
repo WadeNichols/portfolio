@@ -4,9 +4,9 @@
 * {
   margin: 0;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 811px) {
   .container {
-    padding-top: 30px;
+    padding-top: 55px;
   }
 }
 @media only screen and (max-width: 346px){
@@ -21,35 +21,41 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  top: 1.3%;
+  top: 1%;
   left: 50%;
   right: 50%;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 811px) {
   .nav-container {
-    top: 13%;
+    top: 12%;
   }
 }
 
 .nav-container a {
-  padding: 0 20px;
+  padding: 0 30px;
   color: whitesmoke;
   font-size: 50px;
   text-decoration: none;
   font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight";
 }
 
+@media only screen and (max-width: 500px) {
+  .nav-container a {
+    font-size: 35px;
+    padding: 0 15px;
+  }
+}
+
 .header-container {
   background-color: #73000b;
   width: 100vw;
-  height: 3.5em;
-  padding: 7px 5px;
+  height: 3em;
+  padding: 10px 5px;
   position: fixed;
 }
 
 .logoW {
-  padding: 0;
-  margin: -17px 0 0 5px;
+  margin: -14px 0 0 10px;
 }
 
 /* header icons */
@@ -62,11 +68,17 @@
 
 .header-icons a {
   font-size: 30px;
-  padding: 0 15px 0 15px;
+  padding: 0 25px 0 5px;
   color: whitesmoke;
   float: center;
   margin-top: 4px;
   list-style: none;
+}
+@media only screen and (max-width: 343px) {
+  .header-icons a {
+    font-size: 25px;
+    padding: 0 10px;
+  }
 }
 
 /* Main Styles */
@@ -74,7 +86,7 @@
   background-color: #e6b82e;
   height: auto !important;
   min-height: 100vh;
-  width: 100vw;
+  width: 100;
   padding-bottom: 5em;
   text-align: center;
 }
@@ -100,9 +112,15 @@ h1 {
   font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight";
   color: #000;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 811px) {
   h1 {
     font-family: "Permanent Marker"
+  }
+}
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-family: "Permanent Marker";
+    font-size: 3em;
   }
 }
 
@@ -117,11 +135,14 @@ p {
   font-size: 20px;
   text-indent: 1.5em;
   line-height: 21px;
-  padding: 0.5em 25px 0.5em 20px;
+  padding: 0.5em 20px;
   color: whitesmoke;
   font-family: "Stardos Stencils", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
 
 .gif {
   margin-left: 1.5em;
@@ -141,27 +162,32 @@ p {
   font-family: "Permanent Marker", "Zilla Slab Highlight";
   color: #000;
 }
+h4 {
+  font-size: 18px;
+  font-family: "Permanent Marker", "Zilla Slab Highlight";
+  color: #73000b
+}
 
 .skills {
   display: grid;
   grid-template-columns: auto auto auto auto;
   align-items: center;
 }
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1024px) {
   .skills {
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 690px) {
   .skills {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
   }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 490px) {
   .skills {
     display: grid;
     grid-template-columns: auto;
@@ -184,6 +210,12 @@ h6 {
   color: #000;
 }
 
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 10px;
+}
 .icons {
   height: auto;
   width: auto;
@@ -207,7 +239,7 @@ br {
   bottom: 0;
   background-color: #73000b;
   width: 100vw;
-  height: 4.1em;
+  height: 4em;
 }
 
 .logoN {

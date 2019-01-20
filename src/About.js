@@ -8,9 +8,9 @@ export default function About() {
       <header>
         <h1>Have You Met Wade?</h1>
       </header>
-      <p className="head-shot">
+      <span className="head-shot">
         <img height="404px" width="300px" src={headShot} alt="" />
-      </p>
+      </span>
       <body>
         <p>
           Hi, I'm Wade and this is the story of how I came to become a Web

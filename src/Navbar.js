@@ -4,9 +4,9 @@ export default function Navbar() {
     return (
         <div>
         <nav className="nav-container">
-          <a className="nav" href="/">About</a>
-          <a className="nav" href="/projects">Projects</a>
-          <a className="nav" href="/resume">Resume</a>
+          <a href="/">About</a>
+          <a href="/projects">Projects</a>
+          <a href="/resume">Resume</a>
         </nav>
         </div>
     )
