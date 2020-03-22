@@ -7,29 +7,12 @@
 * {
   margin: 0;
 }
-/* @media only screen and (max-width: 811px) {
-  .container {
-    padding-top: 55px;
-  }
-}
-@media only screen and (max-width: 346px){
-  .container{
-    padding-top: 20px
-  }
-} */
 
 /* Header Styles */
 .nav-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
-}
-
-@media only screen and (max-width: 900px) {
-  .nav-container {
-    top: 12%;
-    position: -ms-page;
-  }
 }
 
 .nav-container a {
@@ -37,7 +20,6 @@
   color: whitesmoke;
   font-size: 30px;
   text-decoration: none;
-  /* font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight"; */
 }
 
 .nav-container a:hover {
@@ -47,15 +29,6 @@
 .nav-container a:active {
   color: black
 }
-
-/* @media only screen and (max-width: 900px) {
-  .nav-container a {
-    margin-top: 110px;
-    font-size: 35px;
-    padding: 0 15px;
-    font-family: "Open+Sans"
-  }
-} */
 
 .header-container {
   display: flex;
