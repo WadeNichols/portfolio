@@ -1,10 +1,13 @@
 /*Google Fonts*/
 @import url("https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Zilla+Slab+Highlight|Stardos+Stencil|Permanent+Marker");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
+/* break points: 768px (mobile friendly) 769-1023px (tablets) 124-1439px (laptop, desktop) */
+/* add display: flex & flex-direction: column for @media screen */
 * {
   margin: 0;
 }
-@media only screen and (max-width: 811px) {
+/* @media only screen and (max-width: 811px) {
   .container {
     padding-top: 55px;
   }
@@ -13,19 +16,16 @@
   .container{
     padding-top: 20px
   }
-}
+} */
 
 /* Header Styles */
 .nav-container {
-  position: fixed;
   display: flex;
   justify-content: space-around;
   text-align: center;
-  top: 1%;
-  left: 50%;
-  right: 50%;
 }
-@media only screen and (max-width: 811px) {
+
+@media only screen and (max-width: 900px) {
   .nav-container {
     top: 12%;
     position: -ms-page;
@@ -33,30 +33,50 @@
 }
 
 .nav-container a {
-  padding: 0 30px;
+  padding: 15px 20px;
   color: whitesmoke;
-  font-size: 50px;
+  font-size: 30px;
   text-decoration: none;
-  font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight";
+  /* font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight"; */
 }
 
-@media only screen and (max-width: 500px) {
+.nav-container a:hover {
+  color: #8B8585;
+}
+
+.nav-container a:active {
+  color: black
+}
+
+/* @media only screen and (max-width: 900px) {
   .nav-container a {
+    margin-top: 110px;
     font-size: 35px;
     padding: 0 15px;
+    font-family: "Open+Sans"
   }
-}
+} */
 
 .header-container {
-  background-color: #73000b;
-  width: 100vw;
-  height: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: 	#0000;
   padding: 10px 5px;
-  position: fixed;
+}
+
+.header-container a:hover {
+  color: #8B8585;
 }
 
 .logoW {
-  margin: -14px 0 0 10px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 510px) {
+  .logoW {
+    width: 200px
+  }
 }
 
 /* header icons */
@@ -69,27 +89,48 @@
 
 .header-icons a {
   font-size: 30px;
-  padding: 0 25px 0 5px;
+  padding: 5px 25px 0 5px;
   color: whitesmoke;
   float: center;
   margin-top: 4px;
   list-style: none;
 }
-@media only screen and (max-width: 343px) {
+@media only screen and (max-width: 411px) {
   .header-icons a {
-    font-size: 25px;
+    font-size: 28px;
     padding: 0 10px;
   }
 }
 
 /* Main Styles */
 .container {
-  background-color: #e6b82e;
   height: auto !important;
   min-height: 100vh;
-  width: 100;
-  padding-bottom: 5em;
-  text-align: center;
+}
+
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-container p {
+  max-width: 70vw;
+  text-align: justify;
+  padding: 0;
+
+}
+
+.projects-container li:last-child {
+  padding-bottom: 40px;
+}
+
+.container p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+
 }
 
 .resume {
@@ -108,37 +149,33 @@
 }
 
 h1 {
-  padding: 1.5em 0 0 20px;
-  font-size: 4em;
-  font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight";
-  color: #000;
+  font-size: 2.5em;
+  margin-left: 48px;
+  font-family: "Open+Sans";
+  color: whitesmoke;
 }
-@media only screen and (max-width: 811px) {
+@media only screen and (max-width: 767px) {
   h1 {
-    font-family: "Permanent Marker"
-  }
-}
-@media only screen and (max-width: 500px) {
-  h1 {
-    font-family: "Permanent Marker";
-    font-size: 3em;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0
   }
 }
 
 .container h3 {
-  padding: 1.5em 17px 15px 20px;
+  padding: 1.5em 20% 15px 20%;
   font-size: 2em;
-  font-family: "Stardos Stencils";
+  font-family: "Open+Sans";
   color: whitesmoke;
 }
 
 p {
   font-size: 20px;
+  padding: 0.9em 1.5em;
   text-indent: 1.5em;
   line-height: 21px;
-  padding: 0.5em 20px;
   color: whitesmoke;
-  font-family: "Stardos Stencils", sans-serif;
+  font-family: "Open+Sans";
 }
 
 a {
@@ -146,7 +183,6 @@ a {
 }
 
 .gif {
-  margin-left: 1.5em;
   padding: 15px
 }
 .size {
@@ -159,14 +195,30 @@ a {
 
 .projects {
   padding: .5em 0 .3em 0;
+  text-align: center;
+  margin: 0;
   font-size: 2.5em;
-  font-family: "Permanent Marker", "Zilla Slab Highlight";
-  color: #000;
+  font-family: "Open+Sans";
+  color: whitesmoke;
 }
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: whitesmoke;
+  max-width: 65vw;
+  text-align: center;
+}
+
 h4 {
   font-size: 18px;
-  font-family: "Permanent Marker", "Zilla Slab Highlight";
-  color: #73000b
+  font-family: "Open+Sans";
+  color: #000
 }
 
 .skills {
@@ -174,41 +226,37 @@ h4 {
   grid-template-columns: auto auto auto auto;
   align-items: center;
 }
-@media only screen and (max-width: 1024px) {
-  .skills {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
-  }
-}
-@media only screen and (max-width: 690px) {
+
+@media only screen and (max-width: 767px) {
   .skills {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
   }
 }
-@media only screen and (max-width: 490px) {
-  .skills {
-    display: grid;
-    grid-template-columns: auto;
-    align-items: center;
-  }
-}
+
 
 h5 {
   font-size: 16px;
   text-indent: 1.5em;
   line-height: 21px;
   color: whitesmoke;
-  font-family: "Stardos Stencils", sans-serif;
+  font-family: "Open+Sans";
 }
 
 h6 {
   padding: .5em 0 20px 0;
   font-size: 5em;
-  font-family: "Libre Barcode 128 Text", "Zilla Slab Highlight";
-  color: #000;
+  font-family: "Open+Sans";
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 767px) {
+  h6 {
+    text-align: center;
+    font-size: 3.5em;
+
+  }
 }
 
 ul {
@@ -223,10 +271,28 @@ ul {
   padding: 10px
 }
 
+@media only screen and (max-width: 767px) {
+  .icons img{
+    width: 110px;
+    height: auto;
+    padding: 20px;
+  }
+}
 .head-shot {
   display: flex;
   float: right;
-  margin: 0 1em 1em 1em;
+  height: auto;
+  max-width: 100vw;
+  margin: 1.2em;
+  margin-right: 3.5em;
+}
+
+@media only screen and (max-width: 767px){
+  .head-shot {
+    margin: 0;
+    float: none;
+    justify-content: center;
+  }
 }
 
 br {
@@ -235,15 +301,17 @@ br {
 
 /* Footer Styles */
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
-  background-color: #73000b;
+  background-color: #0000;
   width: 100vw;
   height: 4em;
 }
 
+.app-container {
+  background: radial-gradient(#8B8585,#000000)
+}
+
 .logoN {
   float: right;
-  margin: -0.5em 1.3em 0 0;
 }

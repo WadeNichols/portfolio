@@ -20,11 +20,10 @@ import express from "./assets/icons/express-icon.png";
 
 export default function Projects() {
   return (
-    <div className="container">
+    <div className="projects-container">
       <header>
         <h1>What Can I Do?</h1>
       </header>
-      <body>
         <h3>
           Here area few samples of what I am able to do. Go ahead and click on
           the gif if you would like to take a closer look.
@@ -115,7 +114,7 @@ export default function Projects() {
           new skills that I've been taught.
         </p>
 
-        <h6>What Do I Know?</h6>
+        <h6>What I Know</h6>
         <div className="skills">
           <div className="icons">
             <img src={react} alt="" />
@@ -132,6 +131,10 @@ export default function Projects() {
           <div className="icons">
             <img src={css} alt="" />
             <h5>CSS3</h5>
+          </div>
+          <div className="icons">
+            <img src={mongodb} alt="" />
+            <h5>MongoDB</h5>
           </div>
           <div className="icons">
             <img src={node} alt="" />
@@ -157,12 +160,8 @@ export default function Projects() {
             <img src={axios} alt="" />
             <h5>Axios</h5>
           </div>
-          <div className="icons">
-            <img src={mongodb} alt="" />
-            <h5>MongoDB</h5>
-          </div>
+         
         </div>
-      </body>
     </div>
   );
 }

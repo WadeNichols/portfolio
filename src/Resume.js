@@ -5,7 +5,7 @@ import resumeP1 from "./assets/resumeP1.png"
 import resumeP2 from "./assets/resumeP2.png"
 export default function Resume() {
   return (
-    <div className="container">
+    <div className="resume-container">
       <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -15,7 +15,7 @@ export default function Resume() {
 
       <h1 className="resume-title">Here's My Resume, Check It Out.</h1>
 
-      <a className="resume-download" href="https://drive.google.com/open?id=1sW6OQo5vgztB-zWZVYKUwFACsqTzAP-z" target="_blank" >
+      <a className="resume-download" href="https://drive.google.com/file/d/1grcTiNnaa8tJlE-QTv00RZcrxxRGHllT/view?usp=sharing" target="_blank" >
         <i class="fas fa-file-download" />
       </a>
       <p>Download Resumé</p>
