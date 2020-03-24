@@ -50,7 +50,10 @@
   .logoW {
     width: 200px
   }
+
 }
+
+@media only screen and (max-width: )
 
 /* header icons */
 .header-icons {
@@ -70,7 +73,7 @@
 }
 @media only screen and (max-width: 411px) {
   .header-icons a {
-    font-size: 28px;
+    font-size: 25px;
     padding: 0 10px;
   }
 }
