@@ -15,7 +15,7 @@ export default function Resume() {
 
       <h1 className="resume-title">Here's My Resume, Check It Out.</h1>
 
-      <a className="resume-download" href="https://drive.google.com/file/d/1grcTiNnaa8tJlE-QTv00RZcrxxRGHllT/view?usp=sharing" target="_blank" >
+      <a className="resume-download" href="https://drive.google.com/file/d/1nx4OvC9QJ6YgIanjI-b1-UbA2JKg4y94/view?usp=sharing" target="_blank" >
         <i class="fas fa-file-download" />
       </a>
       <p>Download Resumé</p>
