@@ -123,6 +123,14 @@
 }
 
 .resume-download {
+  float: left;
+  font-size: 4em;
+  padding: 0 0 0 15px;
+  color: white;
+}
+
+.reference-download {
+  float: right;
   font-size: 4em;
   padding: 0 0 0 15px;
   color: white;

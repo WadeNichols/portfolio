@@ -1,8 +1,7 @@
 import React from "react";
 
-import resumePNG from "./assets/resumePNG.png";
-import resumeP1 from "./assets/resumeP1.png"
-import resumeP2 from "./assets/resumeP2.png"
+import resume1 from "./assets/resume1.png"
+import resume2 from "./assets/resume2.png"
 export default function Resume() {
   return (
     <div className="resume-container">
@@ -19,9 +18,13 @@ export default function Resume() {
         <i class="fas fa-file-download" />
       </a>
       <p>Download Resumé</p>
+      <a className="reference-download" href="https://drive.google.com/file/d/1Qyix8cFH8UV61HCpYykXZEEaj7dlGhzf/view?usp=sharing">
+       <i class="fas fa-file-download" />
+      </a>
+      <p>Letter of Reference</p>
 
-      <img className="resume" src={resumeP1} alt="" />
-      <img className="resume" src={resumeP2} alt="" />
+      <img className="resume" src={resume1} alt="" />
+      <img className="resume" src={resume2} alt="" />
     </div>
   );
 }
